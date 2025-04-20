@@ -1,0 +1,35 @@
+{
+  "name": "projetfleurs",
+  "version": "1.0.0",
+  "description": "Mini-Projet Final",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/isaacbenhale/projetFleurs.git"
+  },
+  "author": "Gountanth Benhale",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/isaacbenhale/projetFleurs/issues"
+  },
+  "homepage": "https://github.com/isaacbenhale/projetFleurs#readme",
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "compression": "^1.8.0",
+    "csrf": "^3.1.0",
+    "csurf": "^1.10.0",
+    "dotenv": "^16.5.0",
+    "express": "^5.1.0",
+    "express-session": "^1.18.1",
+    "express-validator": "^7.2.1",
+    "helmet": "^8.1.0",
+    "jsonwebtoken": "^9.0.2",
+    "mongodb": "^6.15.0",
+    "mongoose": "^8.13.2",
+    "multer": "^1.4.5-lts.2",
+    "projetfleurs": "file:"
+  }
+}
