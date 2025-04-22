@@ -6,12 +6,12 @@ const { generateToken } = require('../services/authService');
 const { body, validationResult } = require('express-validator');
 
 
-// ✅ Route GET /register (affiche la page HTML d'inscription)
+//Route GET /register (affiche la page HTML d'inscription)
 router.get('/register', (req, res) => {
   res.sendFile(path.join(__dirname, '../public/html', 'auth.html'));
 });
 
-// ✅ Route GET /login (affiche la page HTML de connexion)
+// Route GET /login (affiche la page HTML de connexion)
 router.get('/login', (req, res) => {
   res.sendFile(path.join(__dirname, '../public/html', 'auth.html'));
 });
@@ -154,7 +154,6 @@ router.post('/login', [
 
 // ✅ Route GET /logout (déconnexion)
 router.get('/logout', (req, res) => {
-  // Si tu gères les tokens côté client, le logout se fait côté front (supprimer le token)
   res.json({ success: true, message: 'Déconnecté (client doit supprimer le token)' });
 });
 

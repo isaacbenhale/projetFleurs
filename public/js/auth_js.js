@@ -23,7 +23,8 @@ document.addEventListener('DOMContentLoaded', function() {
       registerFormContainer.style.display = 'block';
       registerTab.classList.add('active');
       loginTab.classList.remove('active');
-    } else {
+    } 
+    else {
       loginFormContainer.style.display = 'block';
       registerFormContainer.style.display = 'none';
       loginTab.classList.add('active');
